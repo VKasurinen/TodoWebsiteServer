@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new 
+Content-Type: application/json
+
+{
+"text": "Mene töihin"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/65115465cdafd01f87ce8fdb
+
+###
+
+PUT http://localhost:3001/todo/complete/65115424cdafd01f87ce8fd8 
+
